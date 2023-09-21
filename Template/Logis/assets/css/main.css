@@ -1708,7 +1708,6 @@ section {
   width: 100%;
   min-height: 50vh;
   background-color: var(--color-secondary);
-  background-image: url("../img/hero-bg.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -2130,9 +2129,7 @@ a.btn-link {
 }
 
 img {
-    object-fit: cover;
     width: 100%;
-    height: 100%;
     margin-bottom: 15px;
 }
 
@@ -2187,4 +2184,20 @@ img {
 
 #pagination a:hover {
     color: #ffc107;
+}
+
+a.link {
+  color: #ffc107;
+}
+
+a.link:hover {
+  color: #0d6efd;
+}
+
+.content-container div {
+  margin-bottom: 20px;
+}
+
+.content-container div a, .content-container div p {
+  margin-left: 5px;
 }
